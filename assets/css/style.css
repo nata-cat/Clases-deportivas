@@ -1,0 +1,143 @@
+:root{
+    --celeste-oscuro-primario: #07456A;
+    --azul-claro-primario: #0288A7;
+    --naranja-secundario: #F2835B;
+    --azul-oscuro-base: #032235;
+    --gris-oscuro-inactivo: #9BBEC2;
+    --gris-claro-fondo:#E4EEEF;
+    --blanco-base:#FAFCFB;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.btn-primary{
+    background-color: var(--celeste-oscuro-primario);
+    border-color: var(--celeste-oscuro-primario);
+    padding: 14px, 22px, 14px, 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.375em;
+
+
+}
+.nav-link{
+    color: var(--azul-oscuro-base);
+}
+.banner{
+    background-image: url(../img/foto-banner.jpg);
+    height: 590px;
+    color: var(--blanco-base);
+    background-position: center;
+}
+
+.banner-title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 4.3rem;
+}
+.servicios > .row > div .card{
+    height: 390px;
+    border-color: var(--celeste-oscuro-primario);
+    background-color: var(--celeste-oscuro-primario);
+    color: var(--blanco-base);
+}
+.card-body > div > a{
+    border-color: var(--blanco-base);
+}
+.card-body >h3{
+    font-weight: 700;
+}
+p{
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+.clases-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.sobre-mi > div{
+    background-color: var(--azul-claro-primario);
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.btn-secondary{
+    border-color: var(--blanco-base);
+    background-color: var(--azul-claro-primario);
+}
+
+.alumnos{
+    background-color: var(--blanco-base);
+}
+.oferta{
+    background-color: var(--naranja-secundario);
+    color: var(--blanco-base);   
+}
+.oferta > p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 3.2rem;
+
+}
+.descuento-plan{
+    background-color: var(--naranja-secundario);
+    color: var(--blanco-base);
+    border-radius: 20px;
+}
+.descuento-plan{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+}
+.descuento-plan > p{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+
+}
+.card-pricing{
+    background-color: var(--gris-claro-fondo);
+    border: none;
+}
+.icon-color{
+    color: var(--azul-claro-primario);
+}
+.btn-primary.btn-pricing{
+    font-size: medium;
+}
+.yaEresAlumno{
+    background-color: var(--azul-claro-primario);
+    color: var(--blanco-base);   
+}
+footer{
+    background-color: var(--blanco-base);
+    color: var(--azul-oscuro-base);
+}
+.btn-social{
+    background-color: var(--naranja-secundario);
+}
+.copyright{
+    background-color: var(--naranja-secundario);
+    color: var(--blanco-base);
+
+}
+#foto, #foto-tomas {
+    object-fit: cover;
+    width: 100%;
+}
